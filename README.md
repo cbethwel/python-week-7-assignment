@@ -1,58 +1,51 @@
-# python-week-7-assignment
-Iris Dataset Analysis
-Overview
-This project performs basic exploratory data analysis (EDA) and visualization on the classic Iris flower dataset using Python, pandas, matplotlib, and seaborn.
+# 🌸 Iris Dataset Analysis
 
-Tasks Covered
-Data loading and inspection
+## 📋 Overview
+This project performs **basic exploratory data analysis (EDA)** and **visualization** on the classic **Iris flower dataset** using **Python**, **Pandas**, **Matplotlib**, and **Seaborn** libraries.
 
-Handling missing data
+---
 
-Basic descriptive statistics
+## 🧪 Tasks Performed
+- Load and inspect dataset
+- Handle missing values
+- Compute descriptive statistics
+- Group data and compute aggregates
+- Visualize data using different plots
 
-Group-wise analysis
+---
 
-Data visualizations (line chart, bar chart, histogram, scatter plot)
+## 📂 Dataset
+- **File**: `iris.csv`
+- **Columns**:
+  - `sepal_length`
+  - `sepal_width`
+  - `petal_length`
+  - `petal_width`
+  - `species`
 
-Dataset
-The dataset (iris.csv) contains measurements of iris flowers:
+---
 
-Sepal Length
+## 📈 Visualizations Created
+- **Line Chart**: Petal Length across Samples
+- **Bar Chart**: Average Petal Length per Species
+- **Histogram**: Distribution of Sepal Width
+- **Scatter Plot**: Petal Length vs Sepal Length
 
-Sepal Width
+---
 
-Petal Length
+## 🚨 Error Handling
+- Used `try-except` blocks to handle errors during dataset loading and missing data handling.
 
-Petal Width
+---
 
-Species
+## 📊 Observations
+- **Setosa** species has the smallest petal measurements.
+- **Virginica** species has the largest petal dimensions.
+- **Sepal dimensions** show less variability compared to petal dimensions.
 
-How to Run
-Clone this repository.
+---
 
-Install dependencies if needed:
+## 🧑‍💻 Author
+- Cheruiyot Bethwel
 
-nginx
-Copy
-Edit
-pip install pandas matplotlib seaborn
-Open the notebook iris_analysis.ipynb in Jupyter Notebook or JupyterLab.
-
-Run all cells.
-
-Visualizations
-The notebook includes:
-
-Line chart of petal length
-
-Bar chart comparing species
-
-Histogram of petal lengths
-
-Scatter plot of petal length vs sepal length
-
-Error Handling
-Basic exception handling is added during dataset loading.
-
-Author
-Cheruiyot Bethwel
+---
